@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05030A"/>
+      <stop offset="45%" stop-color="#1A0B2E"/>
+      <stop offset="75%" stop-color="#35104F"/>
+      <stop offset="100%" stop-color="#100510"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B794F4"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="170" cy="170" r="210" fill="url(#glow)">
+    <animate attributeName="opacity" values=".35;.75;.35" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1030" cy="190" r="220" fill="url(#glow)">
+    <animate attributeName="opacity" values=".75;.3;.75" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="#C084FC">
+    <circle cx="110" cy="75" r="3"><animate attributeName="cy" values="75;48;75" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="285" r="2.5"><animate attributeName="cy" values="285;255;285" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="65" r="2"><animate attributeName="cy" values="65;40;65" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="65" r="2.5"><animate attributeName="cy" values="65;38;65" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="285" r="3"><animate attributeName="cy" values="285;250;285" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="95" r="2"><animate attributeName="cy" values="95;65;95" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="#F0ABFC">
+    <circle cx="150" cy="255" r="2"/>
+    <circle cx="420" cy="90" r="2"/>
+    <circle cx="760" cy="270" r="2"/>
+    <circle cx="930" cy="95" r="2"/>
+  </g>
+
+  <text x="600" y="105" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        letter-spacing="6" fill="#D8B4FE" opacity=".85">
+    WELCOME TO MY PROFILE
+  </text>
+
+  <g font-family="Georgia, 'Times New Roman', serif"
+     font-size="78" font-weight="700" fill="url(#name)"
+     text-anchor="middle" filter="url(#softGlow)">
+
+    <text x="390" y="205">V<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="0s" repeatCount="indefinite"/></text>
+    <text x="455" y="205">i<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin=".35s" repeatCount="indefinite"/></text>
+    <text x="500" y="205">b<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin=".70s" repeatCount="indefinite"/></text>
+    <text x="550" y="205">h<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="1.05s" repeatCount="indefinite"/></text>
+    <text x="600" y="205">a<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="1.40s" repeatCount="indefinite"/></text>
+    <text x="645" y="205">s<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="1.75s" repeatCount="indefinite"/></text>
+    <text x="690" y="205">h<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="2.10s" repeatCount="indefinite"/></text>
+    <text x="740" y="205">r<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="2.45s" repeatCount="indefinite"/></text>
+    <text x="785" y="205">e<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="2.80s" repeatCount="indefinite"/></text>
+    <text x="830" y="205">e<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="3.15s" repeatCount="indefinite"/></text>
+    <text x="885" y="205"> K S<animateTransform attributeName="transform" type="translate" values="-800 0;0 0;0 0;800 0" keyTimes="0;.34;.72;1" dur="10s" begin="3.50s" repeatCount="indefinite"/></text>
+  </g>
+
+  <text x="600" y="265" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="15"
+        letter-spacing="4" fill="#E9D5FF" opacity=".78">
+    AI • MACHINE LEARNING • DATA SCIENCE
+  </text>
+</svg>
